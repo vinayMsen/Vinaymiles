@@ -49,16 +49,32 @@
 
                 <div class="tab-titles">
 
-                        <p class="tab-links">Skills</p>
-                        <p class="tab-links">Exeprience</p>
-                        <p class="tab-links">Education</p>
+                        <p class="tab-links active-link" onlclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onlclick="opentab('projects')">Projects</p>
+                        <p class="tab-links"onlclick="opentab('Education')">Education</p>
                 </div>
-                <div class="tab-contentes">
+                <div class="tab-contents active-tab" id="skills">
                     <ul>
                         <li><span>Front-End</span><br>HTML5, CSS3, JavaScript</li>
                         <li><span>Languages</span><br>C++, JavaScript</li>
                         <li><span>DataBase</span><br>SQL, MySQL</li>
                         <li><span>miscellaneous</span><br>Linux, Version Cotrol, VScode</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="projects">
+                    <ul>
+                        <li><span>Juet Web</span>A College clone website</li>
+                        <li><span>Quizzy</span><br>A simple Quiz Website for Quiz hosting</li>
+                        <li><span>Persnol Portfolio</span><br>To showcase my work and experience</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>B.Tech  CSE</span>JUET Guna <span>7.3</span></li>
+                        <li><span>12th State Board </span>Saradar Patel School Rewa<span>96.2%</span></li>
+                        <li><span>10th State Board </span>Saradar Patel School Rewa<span>96.2%</span></li>
+                        
                     </ul>
                 </div>
             </div>
